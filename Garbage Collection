@@ -1,0 +1,25 @@
+Minnes hantering !!!
+Varför ???
+Bra att förstå koncept, intervjuer men också att inte allt är 'magi'...
+
+Deprecated-utfasad-?  'Deprecated-- kod visas upp i form av 'struken text'
+Ibland under utvecklingens gång, så förådlras teknologi, kod och dokumentation.
+Därför är det viktigt att hålla sig uppdaterad via officiell dokumentation.
+
+<<<<Garbage collection>>>>
+'Automatic garbage collection is the process of looking at heap memory, identifying which objects are in use
+and which are not, and deleting the unused objects'
+
+
+Automatisk sophämtning är processen att titta på högminne, identifiera vilka objekt som används
+och som inte är det, och ta bort de oanvända objekten.Ett objekt som används, eller ett refererat objekt,
+betyder att någon del av ditt program fortfarande har en pekare till det objektet. Ett oanvänt objekt,
+eller objekt som inte hänvisas till, refereras inte längre av någon del av ditt program.
+ Så minnet som används av ett objekt utan referens kan återvinnas.
+
+Steg #1
+Markering
+Steg #2
+Normal radering
+Steg #2a
+Radering med komprimering
